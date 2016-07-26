@@ -37,6 +37,8 @@
 
 	@yield('head')
 
+	<meta name="google-site-verification" content="hM6E1nEM8tFqGCPGlbjuJAjWdxAwFRYgHhM0UjwQG4c" />
+
 </head>
 <body class="boxed">
 	<!--Pre-Loader-->
