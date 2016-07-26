@@ -1038,7 +1038,7 @@ button, input, select, textarea {
       -ms-filter: grayscale(100%);
       -o-filter: grayscale(100%);
       filter: grayscale(100%);
-      filter: url(../images/grayscale.svg#greyscale);
+      filter: url(/assets/images/grayscale.svg#greyscale);
       /* Firefox 4+ */
       filter: gray;
       /* IE 6-9 */
@@ -1513,7 +1513,7 @@ button, input, select, textarea {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-  filter: url(../images/grayscale.svg#greyscale);
+  filter: url(/assets/images/grayscale.svg#greyscale);
   /* Firefox 4+ */
   filter: gray;
   /* IE 6-9 */
