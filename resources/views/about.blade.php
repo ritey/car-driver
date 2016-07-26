@@ -18,7 +18,7 @@
             <h2 class="font-accident-two-normal uppercase">About</h2>
             <h5 class="font-accident-one-bold uppercase subtitle">Professional reliable and meticulous...</h5>
             <p class="small fontcolor-medium">
-               After spending over 14 years working as a software developer on the web and having a passion for cars and bikes since I can remeber I decided it was time to really enjoy work and combine it with passion for vehicles, rather than only being involved with vehicles outside of work.
+               After spending over 14 years working as a software developer on the web and having a passion for cars and bikes since I can remeber I decided it was time to really enjoy work and combine it with my passion for vehicles, rather than only being involved with vehicles outside of work.
             </p>
             <p>Having many friends who own high end cars and bikes with busy jobs and families, I know first hand how important maximising the time they have with their favourite vehicle can be. This is where being the <strong>car driver</strong> comes in. I'll drive your vehicle to where you want it to be in time for you to arrive, or in prep for your next excursion.</p>
             <p>My personal vehicles currently include:</p>
@@ -38,9 +38,9 @@
          <div class="container-fluid nopadding">
 
             <div class="wow fadeInDown" data-wow-delay="0.4s" data-wow-offset="10">
-               <h3 class="font-accident-two-normal uppercase text-center">Personal qualities</h3>
+               <h3 class="font-accident-two-normal uppercase text-center">Qualities you can trust</h3>
                <p class="small text-center fontcolor-medium">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id metus purus.
+
                </p>
                <div class="dividewhite4"></div>
             </div>
