@@ -39,10 +39,14 @@
                   </div>
                   <div class="row">
                      <div class="col-sm-2"><span class="font-accident-two-bold uppercase">Skype:</span></div>
-                     <div class="col-sm-10"><p class="small">@cardriver</p></div>
+                     <div class="col-sm-10"><p class="small">@thecardriver</p></div>
                   </div>
                </div>
                <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s" data-wow-offset="10">
+                  <div class="row">
+                     <div class="col-sm-2"><span class="font-accident-two-bold uppercase">Email:</span></div>
+                     <div class="col-sm-10"><p class="small">hello@cardriver.io</p></div>
+                  </div>
                   <div class="row">
                      <div class="col-sm-2"><span class="font-accident-two-bold uppercase">Twitter:</span></div>
                      <div class="col-sm-10"><p class="small"><a target="_blank" href="https://twitter.com/the_car_driver">https://twitter.com/the_car_driver</a></p></div>
