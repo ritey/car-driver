@@ -24,8 +24,7 @@
             <p>My personal vehicles currently include:</p>
             <ul>
 	            <li><strong>&middot;</strong> Modified classic mini</li>
-	            <li><strong>&middot;</strong> Mercedes C class AMG</li>
-	            <li><strong>&middot;</strong> BMW S1000 RR motorbike</li>
+	            <li><strong>&middot;</strong> Seat Leon Cupra R</li>
 	            <li><strong>&middot;</strong> Yamaha XJ6 Diversion motorbike</li>
 	        </ul>
             <div class="dividewhite2"></div>

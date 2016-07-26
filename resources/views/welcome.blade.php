@@ -97,6 +97,17 @@
                </div>
                <div class="dividewhite1"></div>
             </div>
+            <div class="padding-50 wow fadeInRight" data-wow-delay="0.4s" data-wow-offset="10">
+               <h3 class="font-accident-two-normal uppercase">Availability</h3>
+               <div class="dividewhite3"></div>
+               <div>
+                  <div class="fullwidth box">
+                     <div class="one"><p class="small uppercase">From:</p></div>
+                     <div class="two"><p class="small">2nd week of August</p></div>
+                  </div>
+               </div>
+               <div class="dividewhite1"></div>
+            </div>
          </div>
 
       </div>
@@ -160,7 +171,7 @@
                             </figcaption>
                          </figure>
                       </div>
-                   </div>
+                   </div><br />
                </div>
             </div>
          </div>

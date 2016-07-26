@@ -136,11 +136,17 @@
 	            <div class="divider-dynamic"></div>
 	         </div>
 	         <div class="col-md-3">
-	            <!-- <h4 class="font-accident-two-normal uppercase">Newsletter</h4>
-	            <div class="dividewhite1"></div>
-	            <input class="newsletter-email" type="email" required="" name="ne" placeholder="Your Email">
+	         	<form id="subscribe" action="#" method="post">
+		            <h4 class="font-accident-two-normal uppercase">Newsletter</h4>
+		            <div class="dividewhite1"></div>
+        	    	<input class="newsletter-email" type="email" required="" name="email" placeholder="Your Email">
+        	    	<input type="hidden" name="_token" value="{{ csrf_token() }}" />
+            		<button class="btn btn-default btn-sm" id="subscribe_button" type="submit">Subscribe</button>
 	            <!--<p>Lorem ipsum dolor sit amet...</p>-->
-	            <div class="divider-dynamic"></div>
+	            	<div class="divider-dynamic"></div>
+	         	</form>
+	         	<p id="subscribe_msg_waiting" class="hidden">Subscribing...</p>
+                <p id="subscribe_msg" class="hidden"><strong>Thanks, you're subscribed.</strong></p>
 	         </div>
 	         <div class="col-md-3">
 	            <h4 class="font-accident-two-normal uppercase">Follow us</h4>
@@ -184,6 +190,10 @@
 	@yield('footer')
 
 	<script src="/assets/custom/js/custom.js"                             type="text/javascript"></script>
+
+	<script type="text/javascript">
+	    $('document').ready(function() { $('#subscribe_button').on('click',function(e) { e.preventDefault(); $('#subscribe').addClass('hidden'); $('#subscribe_msg_waiting').removeClass('hidden'); var result = $.ajax({ type: "POST", url: '{{ route('subscribe') }}', data: $('#subscribe').serialize(), success: function(result) { if(result.success) { $('#subscribe_msg_waiting').addClass('hidden'); $('#subscribe_msg').removeClass('hidden'); } }, }); }); });
+	</script>
 
 </body>
 </html>
