@@ -18,7 +18,7 @@
             <h2 class="font-accident-two-normal uppercase">Services</h2>
             <h5 class="font-accident-one-bold uppercase subtitle">Professional reliable and meticulous...</h5>
             <p class="small fontcolor-medium">
-               As the <strong>car driver</strong> I will drive your car or motorbike anywhere you need. Typical scenario's include taking your car to a specialist valet, to a specialist servicing garage or to a race track. Alternative it may be that your car or motorbike needs to be collected and delivered to your home or another location.
+               As the <strong>car driver</strong> I will drive your car or motorbike anywhere you need. Typical scenario's include taking your car to a specialist valet, to a specialist servicing garage or to a race track. Alternatively it may be that your car or motorbike needs to be collected and delivered to your home or another location.
             </p>
          </div>
       </section>

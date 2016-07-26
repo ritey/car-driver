@@ -136,7 +136,6 @@
                      <li class="position">2016 Ducati 1299 Panigale R</li>
                   </ul>
                </div>
-               <a href="home.html#!" class="btn btn-wh-trans btn-xs">Learn More</a>
                <div class="dividewhite1"></div>
             </div>
          </div>

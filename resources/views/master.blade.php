@@ -56,7 +56,7 @@
 	            <div class="row nopadding name">
 	               <div class="col-md-10 name-title"><h2 class="font-accident-two-light uppercase">Car Driver</h2></div>
 	               <div class="col-md-2 nopadding name-pdf">
-	                  <a href="home.html#" class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download our car driver broucher.pdf"></i></a>
+	                  <!-- <a href="{{ route('home') }}" class="hvr-sweep-to-right"><i class="flaticon-download149" title="Download our car driver broucher.pdf"></i></a> -->
 	               </div>
 	            </div>
 	            <div class="row nopadding position">
@@ -126,15 +126,15 @@
 	            <div class="divider-dynamic"></div>
 	         </div>
 	         <div class="col-md-3 cv-link">
-	            <h4 class="font-accident-two-normal uppercase">Download our broucher</h4>
+	            <!-- <h4 class="font-accident-two-normal uppercase">Download our broucher</h4>
 	            <div class="dividewhite1"></div>
 	            <a href="home.html#!"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>English</a>
 	            <a href="home.html#!"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>German</a>
-	            <a href="home.html#!"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>Spanish</a>
+	            <a href="home.html#!"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>Spanish</a> -->
 	            <div class="divider-dynamic"></div>
 	         </div>
 	         <div class="col-md-3">
-	            <h4 class="font-accident-two-normal uppercase">Newsletter</h4>
+	            <!-- <h4 class="font-accident-two-normal uppercase">Newsletter</h4>
 	            <div class="dividewhite1"></div>
 	            <input class="newsletter-email" type="email" required="" name="ne" placeholder="Your Email">
 	            <!--<p>Lorem ipsum dolor sit amet...</p>-->

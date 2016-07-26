@@ -50,13 +50,13 @@
             <div class="row">
                <div class="col-md-3 infoblock text-center wow fadeInLeft" data-wow-delay="0.6s" data-wow-offset="10">
                   <div class="row">
-                     <div class="col-md-12"><i class="flaticon-photo246"></i></div>
+                     <div class="col-md-12"><i class="flaticon-circle-1"></i></div>
                      <div class="col-md-12">
                         <div class="dividewhite1"></div>
                         <h5 class="font-accident-one-bold uppercase">Enthusiastic</h5>
                         <p class="small">
-                           For extreme size changes, we may want to change the layout altogether, either through a
-                           separate style sheet or, more efficiently, through a CSS media query.
+                           Car or bike, there is a massive respect for all things automotive, including electric. We will treat any
+                           vehicle like it's our own pride and joy and give it the maximum attention it deserves.
                         </p>
                      </div>
                   </div>
@@ -64,13 +64,13 @@
                </div>
                <div class="col-md-3 infoblock text-center wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="10">
                   <div class="row">
-                     <div class="col-md-12"><i class="flaticon-pie-graph"></i></div>
+                     <div class="col-md-12"><i class="flaticon-circle-1"></i></div>
                      <div class="col-md-12">
                         <div class="dividewhite1"></div>
-                        <h5 class="font-accident-one-bold uppercase">Self-motivated</h5>
+                        <h5 class="font-accident-one-bold uppercase">Professional</h5>
                         <p class="small">
-                           It is possible to shrink things proportionally and rearrange elements as necessary to make
-                           everything fit (reasonably well) as a screen gets smaller.
+                           It's our aim to be the most professional service provider to you that you've experienced. In look and feel and
+                           excution of the job we do for you.
                         </p>
                      </div>
                   </div>
@@ -78,13 +78,13 @@
                </div>
                <div class="col-md-3 infoblock text-center wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="10">
                   <div class="row">
-                     <div class="col-md-12"><i class="flaticon-clocks18"></i></div>
+                     <div class="col-md-12"><i class="flaticon-circle-1"></i></div>
                      <div class="col-md-12">
                         <div class="dividewhite1"></div>
-                        <h5 class="font-accident-one-bold uppercase">Punctual</h5>
+                        <h5 class="font-accident-one-bold uppercase">Flexible</h5>
                         <p class="small">
-                           Below we have a few examples of responsive Web design in practice today. For many of these
-                           websites, there is more variation.
+                           Needs change, deadlines might reduce in time or locations may change, we can be as flexible as needed
+                           to ensure the job is done right.
                         </p>
                      </div>
                   </div>
@@ -92,13 +92,13 @@
                </div>
                <div class="col-md-3 infoblock text-center wow fadeInRight" data-wow-delay="0.6s" data-wow-offset="10">
                   <div class="row">
-                     <div class="col-md-12"><i class="flaticon-stats47"></i></div>
+                     <div class="col-md-12"><i class="flaticon-circle-1"></i></div>
                      <div class="col-md-12">
                         <div class="dividewhite1"></div>
-                        <h5 class="font-accident-one-bold uppercase">Multitask</h5>
+                        <h5 class="font-accident-one-bold uppercase">Trustworthy</h5>
                         <p class="small">
-                           One major problem that needs to be solved with responsive Web design is working with images.
-                           There are a number of techniques.
+                           With experience in both moving personal vehicles and company vehicles you can trust us to look
+                           after your pride and joy and be assured that we are fully insured in the event of any issue.
                         </p>
                      </div>
                   </div>
