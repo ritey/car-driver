@@ -427,7 +427,7 @@
 
                 // Create a map object, and include the MapTypeId to add
                 // to the map type control.
-                var $latlng = new google.maps.LatLng(52.5075419, 13.4261419),
+                var $latlng = new google.maps.LatLng(51.386108, -0.542447),
                     $mapOptions = {
                         zoom: 13,
                         center: $latlng,
@@ -464,20 +464,14 @@
     /* Wow */
     // var wow = new WOW();
     // wow.init();
+    //
 
-    /* Google Analytics */
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {(i[r].q = i[r].q || []).push(arguments)};
-        i[r].l = 1 * new Date();
-        a = s.createElement(o);
-        m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-40696437-13', 'auto');
-    ga('send', 'pageview');
+      ga('create', 'UA-418381-29', 'auto');
+      ga('send', 'pageview');
 
 })(jQuery);

@@ -76,3 +76,7 @@
 </div>
 
 @endsection
+
+@section('footer')
+   <script src="https://maps.google.com/maps/api/js?key=AIzaSyAkovg9xPKMpCHb6Zj3HXDVF-GGnHCFmr8"                    type="text/javascript"></script>
+@endsection
