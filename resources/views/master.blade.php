@@ -152,7 +152,7 @@
 	            <h4 class="font-accident-two-normal uppercase">Follow us</h4>
 	            <div class="follow">
 	               <ul class="list-inline social">
-	                  <li><a target="_blank" href="https://www.facebook.com/cardriver.io" class="rst-icon-facebook"><i class="fa fa-facebook"></i></a></li>
+	                  <li><a target="_blank" href="https://www.facebook.com/cardriverio" class="rst-icon-facebook"><i class="fa fa-facebook"></i></a></li>
 	                  <li><a target="_blank" href="https://twitter.com/the_car_driver" class="rst-icon-twitter"><i class="fa fa-twitter"></i></a></li>
 	                  <li><a target="_blank" href="https://www.instagram.com/cardriver.io/" class="rst-icon-instagram"><i class="fa fa-instagram"></i></a></li>
 	               </ul>

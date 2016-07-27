@@ -162,7 +162,7 @@
 							@yield('content')
 
 							<em>Thanks</em><br /><br />
-							<a href="http://twitter.com/the_car_driver">Follow on Twitter @the_car_driver</a> | <a href="http://www.facebook.com/cardriver">Like us on Facebook</a>
+							<a href="http://twitter.com/the_car_driver">Follow on Twitter @the_car_driver</a> | <a href="http://www.facebook.com/cardriverio">Like us on Facebook</a>
 						</td>
 					</tr>
 				</table>
