@@ -5,7 +5,7 @@ Thanks
 @endsection
 
 @section('content')
-<p>Thanks for joining the Car Driver mailing list. You can also follow us on <a href="https://twitter.com/the_car_driver">Twitter @the_car_driver</a> or <a href="https://www.facebook.com/cardriver/">Facebook</a></p>
+<p>Thanks for joining the Car Driver mailing list. You can also follow us on <a href="https://twitter.com/the_car_driver">Twitter @the_car_driver</a> or <a href="https://www.facebook.com/cardriverio/">Facebook</a></p>
 
 <p>Thanks</p>
 
