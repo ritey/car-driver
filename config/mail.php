@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => 'cardriver.io'],
+    'from' => ['address' => 'cardriver.io', 'name' => 'cardriver.io'],
 
     /*
     |--------------------------------------------------------------------------
