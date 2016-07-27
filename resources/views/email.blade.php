@@ -147,7 +147,7 @@
 					<tr class='with-separator'>
 						<td style='border-bottom: 1px solid #eee;padding:20px' valign='middle' width='204'>
 							<a href='http://cardriver.io/' target='_blank' title='Car Driver'>
-								<img src="http://cardriver.io/images/cardriver-96x96.png" alt="cardriver.io" title="View the Car Driver website" />
+								<img src="http://cardriver.io/assets/images/cardriver-96x96.png" alt="cardriver.io" title="View the Car Driver website" />
 							</a>
 						</td>
 						<td align='right' class='email-title' style='font-size: 24px;color: #999;border-bottom: 1px solid #eee;padding:20px' valign='middle' width='200'>

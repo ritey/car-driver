@@ -164,6 +164,7 @@
 	      <div class="row wow fadeInDown" data-wow-delay=".4s" data-wow-offset="10">
 	         <div class="col-md-12 copyrights">
 	            <p>© {{ date('Y') }} Car Driver.</p>
+	            <p>Site maintained by <a href="http://www.coderstudios.com/" target="_blank" title="Laravel Developers London - Coder Studios">Coder Studios</a>
 	         </div>
 	      </div>
 	   </div>
