@@ -160,6 +160,7 @@ return [
 
         Bogardo\Mailgun\MailgunServiceProvider::class,
         Roumen\Sitemap\SitemapServiceProvider::class,
+        Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
     ],
 
     /*
@@ -206,7 +207,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        'Mailgun' => Bogardo\Mailgun\Facades\Mailgun::class
+        'Mailgun' => Bogardo\Mailgun\Facades\Mailgun::class,
+        'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
     ],
 
 ];

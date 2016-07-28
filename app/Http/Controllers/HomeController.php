@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 use CoderStudios\Requests\ContactRequest;
 use CoderStudios\Requests\SubscribeRequest;
-use App\Events\ContactSent;
+use CoderStudios\Requests\FeedbackRequest;
+use App\Events\FeedbackSent;
 use App\Events\Subscribed;
 use App;
 
@@ -82,6 +83,11 @@ class HomeController extends Controller {
 		return view('feedback');
 	}
 
+	public function sendFeedback(FeedbackRequest $request)
+	{
+		event(new FeedbackSent($request));
+		return view('feedback-sent');
+	}
 	 /**
      * Display blog index
      *

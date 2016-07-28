@@ -18,6 +18,7 @@ Route::get('/contact', ['as' => 'contact', 'uses' => 'HomeController@contact']);
 Route::get('/feedback', ['as' => 'feedback', 'uses' => 'HomeController@feedback']);
 Route::get('/legals', ['as' => 'legals', 'uses' => 'HomeController@legals']);
 Route::get('/feedback', ['as' => 'feedback', 'uses' => 'HomeController@feedback']);
+Route::post('/feedback', ['as' => 'send-feedback', 'uses' => 'HomeController@sendFeedback']);
 Route::get('/blog', ['as' => 'blog', 'uses' => 'HomeController@blog']);
 Route::get('/clients/login', ['as' => 'clients-login', 'uses' => 'HomeController@login']);
 Route::post('/subscribe', ['as' => 'subscribe', 'uses' => 'HomeController@subscribe']);

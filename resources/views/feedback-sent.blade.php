@@ -32,47 +32,8 @@
 
                <div class="col-md-2">&nbsp;</div>
                <div class="col-md-8 e-centered wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="10">
-                  <div class="dividewhite2"></div>
-                  <div id="form-messages">
-                     @if ($errors->any())
-                        <div class="alert alert-mini alert-danger margin-bottom-30">
-                           <strong>Oh no!</strong>
-                           <ul>
-                              @foreach ($errors->all() as $error)
-                                 <li>{{ $error }}</li>
-                              @endforeach
-                           </ul>
-                        </div>
-                     @endif
-                  </div>
-                  <form method="post" action="{{ route('send-feedback') }}" class="wpcf7-form">
-                     <input type="hidden" name="clear" />
-                     <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-                     <div class="field">
-                        <!--<label for="name">Name:</label>-->
-                        <input type="text" id="name" name="name" placeholder="Name" required>
-                     </div>
-
-                     <div class="field">
-                        <!--<label for="email">Email:</label>-->
-                        <input type="email" id="email" name="email" placeholder="Email" required>
-                     </div>
-
-                     <div class="field">
-                        <!--<label for="message">Message:</label>-->
-                        <textarea id="message" name="message" placeholder="Message" rows="7" cols="30"  required></textarea>
-                     </div>
-
-                     <div class="field">
-                        {!! Recaptcha::render() !!}
-                     </div>
-
-                     <div class="dividewhite2"></div>
-
-                     <div class="field text-center">
-                        <button type="submit" class="btn btn-lg btn-darker">Send Message</button>
-                     </div>
-                  </form>
+                  <h4>Thanks for your feedback</h4>
+                  <p>We've received your details and thank you for your time to respond, we will be in touch shortly.</p>
                </div>
                <div class="col-md-2">&nbsp;</div>
                <div class="col-md-12 divider-dynamic"></div>
