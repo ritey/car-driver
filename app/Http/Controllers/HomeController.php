@@ -88,15 +88,6 @@ class HomeController extends Controller {
 		event(new FeedbackSent($request));
 		return view('feedback-sent');
 	}
-	 /**
-     * Display blog index
-     *
-     * @return \Illuminate\Http\Response
-     */
-	public function blog()
-	{
-		return view('blog');
-	}
 
 	 /**
      * Subscribe an email address to the mail group.
