@@ -7,7 +7,11 @@
   "devDependencies": {
     "bootstrap-sass": "^3.3.0",
     "gulp": "^3.9.1",
-    "laravel-elixir": "^5.0.0"
+    "laravel-elixir": "^5.0.0",
+    "font-awesome": "^4.4.0",
+    "jquery": "^2.1.4",
+    "jquery-ui": "^1.10.5",
+    "dropzone": "*"
   },
   "dependencies": {
     "gulp": "^3.9.1"

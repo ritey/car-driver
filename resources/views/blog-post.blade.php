@@ -13,6 +13,7 @@
 
       <section id="page-title" class="inner-section">
          <div class="container-fluid nopadding wow fadeInRight" data-wow-delay="0.4s" data-wow-offset="10">
+            <p class="pull-right"><a href="{{ route('blog') }}">All Car Driver Posts</a></p>
             <h2 class="font-accident-two-normal uppercase">{{ $vars['article']->name }}</h2>
             <div class="post-meta"><span>by <a href="#!">{{ $vars['article']->meta_author or 'Admin' }}</a>,</span> <span>{{ $vars['article']->live_at->format('l jS M Y') }}</span></div>
          </div>

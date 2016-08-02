@@ -4,7 +4,7 @@ namespace CoderStudios\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Articles extends Model
+class Uploads extends Model
 {
 
     /**
@@ -19,7 +19,7 @@ class Articles extends Model
     *
     * @var  string
     */
-    protected $table = 'articles';
+    protected $table = 'uploads';
 
     /**
     * The attributes that should be hidden from arrays.
@@ -40,7 +40,7 @@ class Articles extends Model
     *
     * @var  array
     */
-    protected $dates = ['live_at'];
+    protected $dates = [];
 
     /**
     * Disable eloquent timestamps.
@@ -55,21 +55,12 @@ class Articles extends Model
     * @var  array
     */
     protected $fillable = [
-        'id',
         'enabled',
-        'sort_order',
-        'name',
-        'slug',
-        'img',
-        'meta_author',
-        'meta_date',
-        'meta_title',
-        'meta_description',
-        'summary',
-        'body',
-        'created_at',
-        'updated_at',
-        'live_at',
+        'user_id',
+        'folder',
+        'extension',
+        'filename',
+        'maskname',
     ];
 
 }

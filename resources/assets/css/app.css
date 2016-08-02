@@ -1,0 +1,110 @@
+body {
+	margin-top:40px;
+}
+
+.media {
+	margin-bottom:20px;
+}
+
+.contact dl {
+
+}
+
+	.contact dl dt , .contact dl dd {
+		width:49%;
+	}
+
+	.contact dl dt {
+		float:left;
+	}
+
+	.contact dl dd {
+		float:right;
+	}
+
+
+/* dropzone overrides */
+
+.dropzone {
+	border-style: dashed;
+	display:table;
+	width:100%;
+}
+
+.dropzone .dz-message{
+	display:table-cell;
+	vertical-align: middle;
+	text-align:center;
+	height:400px;
+}
+
+.dropzone .dz-message span {
+	font-size:2em;
+	color:#d3d3d3;
+}
+
+.dropzone .dz-preview {
+	margin:0 auto;
+	display:table;
+}
+
+.map {
+	min-width:33.32%;
+	min-height:350px;
+}
+
+.description-text {
+	min-height:400px;
+}
+
+.vehicle-images {
+	min-height:500px;
+}
+
+	.vehicle-images .wrapper {
+		width: 100%;
+		position: relative;
+	}
+	.vehicle-images .wrapper .thumbnails {
+		width: 300px;
+		float: left;
+	}
+	.vehicle-images .wrapper a {
+		margin: 2px;
+	}
+	.vehicle-images .wrapper img {
+		border: 1px solid #000;
+	}
+	.vehicle-images .wrapper label > img {
+		opacity: 0.6;
+		cursor:pointer;
+	}
+	.vehicle-images .wrapper label > img:hover {
+		opacity: 1;
+	}
+	.vehicle-images .wrapper input {
+		display: none;
+	}
+	.vehicle-images .wrapper input:checked + .full-image {
+		display: block;
+	}
+	.vehicle-images .wrapper input:checked ~ img {
+		opacity: 1;
+	}
+	.vehicle-images .wrapper .full-image {
+		display: none;
+		position: absolute;
+		top: 220px;
+		left: 0;
+	}
+
+	/* Responsive: Portrait tablets and up */
+	@media screen and (min-width: 768px) {
+		.vehicle-images .wrapper .thumbnails {
+			width: 100%;
+		}
+
+		.vehicle-images .wrapper .full-image {
+			top: 150px;
+		}
+	}
