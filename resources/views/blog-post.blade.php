@@ -14,7 +14,7 @@
       <section id="page-title" class="inner-section">
          <div class="container-fluid nopadding wow fadeInRight" data-wow-delay="0.4s" data-wow-offset="10">
             <h2 class="font-accident-two-normal uppercase">{{ $vars['article']->name }}</h2>
-            <div class="post-meta"><span>by <a href="#!">{{ $vars['article']->meta_author or 'Admin' }}</a>,</span> <span>{{ $vars['article']->live_at->format('d-m-Y') }}</span></div>
+            <div class="post-meta"><span>by <a href="#!">{{ $vars['article']->meta_author or 'Admin' }}</a>,</span> <span>{{ $vars['article']->live_at->format('l jS M Y') }}</span></div>
          </div>
       </section>
 
@@ -23,7 +23,7 @@
 
          <div class="container-fluid nopadding">
 
-            <img src="{{ $vars['article']->slug }}" class="img-responsive wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="10">
+            <img src="{{ $vars['article']->image or '/assets/images/cardriver.jpg' }}" class="img-responsive wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="10">
 
             <article class="post wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="10">
 

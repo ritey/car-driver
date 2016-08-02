@@ -277,7 +277,7 @@
         });
 
         /* Isotope Portfolio */
-        (function () {
+        /*(function () {
             var grid = $('.grid').isotope({
                 itemSelector: '.grid-item',
                 percentPosition: true,
@@ -306,7 +306,7 @@
                 $('#isotope-filters a[data-filter="' + filterValue + '"]').focus();
             });
 
-        })();
+        })(); */
 
         /* Circle Progress */
         (function () {

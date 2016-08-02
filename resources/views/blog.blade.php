@@ -44,7 +44,7 @@
                                  <h5><a href="{{ route('blog.post', ['slug' => $article->slug]) }}">{{ $article->name }}</a></h5>
                               </div>
                               <div class="post-entry">
-                                 <p>Aliquam gravida tincidunt congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
+                                 <p>{{ $article->summary }}</p>
                               </div>
                               <!-- <div class="post-tag pull-left">
                                  <span><a href="#branding" data-filter=".branding">Branding</a>,</span><span><a href="#design" data-filter=".design">Design</a></span>

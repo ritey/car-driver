@@ -123,7 +123,7 @@
                      <li class="date">25/07/2016 - 26/07/2016</li>
                      <li class="company uppercase">
                         <a>
-                           London to Monacco.
+                           London to Monaco.
                         </a>
                      </li>
                      <li class="position">2016 Porsche 911 Turbo</li>
