@@ -95,21 +95,18 @@ class ResourcesController extends BaseController {
 	public function store(ResourcesRequest $request)
 	{
 		$data = $request->only(
-			'enabled',
+	        'enabled',
 	        'sort_order',
 	        'name',
-	        'car_type_id',
-	        'price',
-	        'fuel',
-	        'year',
-	        'colour',
-	        'reg',
-	        'mileage',
+	        'slug',
+	        'img',
+	        'meta_author',
+	        'meta_date',
+	        'meta_title',
 	        'meta_description',
-	        'content',
-	        'gearbox',
-	        'doors',
-	        'slug'
+	        'summary',
+	        'body',
+	        'live_at'
 	    );
 		$resource = $this->resource->create($data);
 		$this->cache->flush();
@@ -147,21 +144,18 @@ class ResourcesController extends BaseController {
 	public function update(ResourcesRequest $request, $id)
 	{
 		$data = $request->only(
-			'enabled',
+	        'enabled',
 	        'sort_order',
 	        'name',
-	        'car_type_id',
-	        'price',
-	        'fuel',
-	        'year',
-	        'colour',
-	        'reg',
-	        'mileage',
+	        'slug',
+	        'img',
+	        'meta_author',
+	        'meta_date',
+	        'meta_title',
 	        'meta_description',
-	        'content',
-	        'gearbox',
-	        'doors',
-	        'slug'
+	        'summary',
+	        'body',
+	        'live_at'
 	    );
 	    if (empty($data['slug'])) {
 	    	$data['slug'] = str_replace(' ', '-', strtolower($data['name']));

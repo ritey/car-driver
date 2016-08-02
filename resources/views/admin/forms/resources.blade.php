@@ -83,7 +83,7 @@
 	<div class="form-group">
 		<label class="col-sm-2 control-label" for="content">Description</label>
 		<div class="col-sm-8">
-			<textarea id="content" name="content" rows="5" class="form-control editor">{{ $vars['item']->body or '' }}</textarea>
+			<textarea id="body" name="body" rows="5" class="form-control editor">{{ $vars['item']->body or '' }}</textarea>
 		</div>
 	</div>
 
