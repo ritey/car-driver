@@ -36,6 +36,7 @@ Route::group(['prefix' => '_admin', 'as' => 'admin.', 'middleware' => 'auth.admi
 
 
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
+Route::get('/image.png', ['as' => 'image', 'uses' => 'ImageController@index']);
 Route::get('/about', ['as' => 'about', 'uses' => 'HomeController@about']);
 Route::get('/services', ['as' => 'services', 'uses' => 'HomeController@services']);
 Route::get('/contact', ['as' => 'contact', 'uses' => 'HomeController@contact']);
