@@ -72,4 +72,9 @@ class Articles extends Model
         'live_at',
     ];
 
+    public function images()
+    {
+        return $this->hasMany('CoderStudios\Models\Uploads','folder','id');
+    }
+
 }

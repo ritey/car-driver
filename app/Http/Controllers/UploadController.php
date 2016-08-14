@@ -49,6 +49,7 @@ class UploadController extends BaseController
         $json = [];
         foreach($files as $file) {
             $data = [];
+            $data['user_id'] = $this->user->id;
             $data['filename'] = $file->getClientOriginalName();
             $data['maskname'] = md5($file->getClientOriginalName() . date('Y-m-d H:i:s'));
             $data['extension'] = $file->guessExtension();

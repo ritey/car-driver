@@ -102,6 +102,10 @@ class BlogController extends BaseController
 
 		$article = $this->articles->where('slug',strtolower(trim($slug)))->first();
 
+		if ($article->images()->count()) {
+			$article->image = '/image.png?width=1200&height=900&filename=' . $article->images->first()->maskname . '.' . $article->images->first()->extension . '&folder=' . $article->images->first()->folder;
+		}
+
 		if (!$article) {
 			$article = $this->articles->where('id',strtolower(trim($slug)))->first();
 		}
