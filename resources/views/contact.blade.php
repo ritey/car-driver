@@ -39,7 +39,7 @@
                   </div>
                   <div class="row">
                      <div class="col-sm-2"><span class="font-accident-two-bold uppercase">Skype:</span></div>
-                     <div class="col-sm-10"><p class="small">@thecardriver</p></div>
+                     <div class="col-sm-10"><p class="small">dave@cardriver.io</p></div>
                   </div>
                </div>
                <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s" data-wow-offset="10">
