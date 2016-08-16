@@ -119,6 +119,8 @@ class HomeController extends Controller {
 			$sitemap->add(url('/contact'), '2016-07-04T12:00:00+02:00','1.0','monthly');
 			$sitemap->add(url('/feedback'), '2016-07-04T12:00:00+02:00','1.0','monthly');
 			$sitemap->add(url('/blog'), '2016-07-04T12:00:00+02:00','1.0','monthly');
+			$sitemap->add(url('/blog/car-driver-is-here'), '2016-07-04T12:00:00+02:00','1.0','monthly');
+			$sitemap->add(url('/blog/mercedes-benz-world-amg-passenger-experience'), '2016-08-16T12:00:00+02:00','1.0','monthly');
 		}
 
 		return $sitemap->render('xml');
