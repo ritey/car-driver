@@ -3,6 +3,10 @@
 @section('metas')
 <title>{{ $vars['article']->meta_title }}</title>
 <meta name="description" content="{{ $vars['article']->meta_description }}">
+<meta name="og:title" content="{{ $vars['article']->meta_title }}">
+<meta name="og:description" content="{{ $vars['article']->meta_description }}">
+<meta name="og:image" content="{{ $vars['article']->image or '/assets/images/cardriver.jpg' }}">
+<meta name="twitter:image" content="{{ $vars['article']->image or '/assets/images/cardriver.jpg' }}">
 @endsection
 
 @section('content')
@@ -24,7 +28,7 @@
 
          <div class="container-fluid nopadding">
 
-            <img src="{{ $vars['article']->image or '/assets/images/cardriver.jpg' }}" class="img-responsive wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="10">
+            <img src="{{ $vars['article']->image or '/assets/images/cardriver.jpg' }}" alt="Car Driver Blog Post Image" class="img-responsive wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="10">
 
             <article class="post wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="10">
 
