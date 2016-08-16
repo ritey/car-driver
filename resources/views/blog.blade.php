@@ -37,7 +37,11 @@
                            <div class="popup-call">
                               <a href="assets/images/cardriver.jpg" class="gallery-item"><i class="flaticon-arrows-4"></i></a>
                            </div>
+                           @if ($article->images()->count())
+                           <img src="{{ '/image.png?width=357&height=267&filename=' . $article->images->first()->maskname . '.' . $article->images->first()->extension . '&folder=' . $article->images->first()->folder }}" class="img-responsive" alt="Car Driver Blog Post" />
+                           @else
                            <img src="assets/images/thumbs/cardriver.jpg" class="img-responsive" alt="Car Driver">
+                           @endif
                            <figcaption>
                               <div class="post-meta"><span>by <a href="#!">{{ $article->meta_author }}</a>,</span> <span>{{ $article->live_at->format('d-m-Y') }}</span></div>
                               <div class="post-header">
