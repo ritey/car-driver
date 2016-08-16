@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('metas')
-<title>About Car Driver | Vehicle transportation | Car pick up | Car delivery | Motorbike move | Professional driving service</title>
+<title>About Car Driver | Trade Plate Driver | Vehicle transportation | Car pick up | Car delivery | Motorbike move | Professional driving service</title>
 <meta name="description" content="About David Wright, a professional UK based car driver moving high end vehicles from A to B for you.">
 <meta name="keywords" content="cars,bikes,driving,professional, moving cars, moving bikes, personal driver, vehicle transportation">
 @endsection
@@ -18,15 +18,11 @@
             <h2 class="font-accident-two-normal uppercase">About</h2>
             <h5 class="font-accident-one-bold uppercase subtitle">Professional reliable and meticulous...</h5>
             <p class="small fontcolor-medium">
-               After spending over 14 years working as a software developer on the web and having a passion for cars and bikes since I can remeber I decided it was time to really enjoy work and combine it with my passion for vehicles, rather than only being involved with vehicles outside of work.
+               As a freelance trade plate driver based in Surrey, UK I enjoy driving motorbikes and cars both for work and pleasure. Fully insured to drive vehicles up to £2 million pounds as standard, with years of experience driving in the UK and throughout Europe, regular clients can enjoy a platinum level service whereby expenses such as a vehicles service are picked up and included in our charge as part of a complete simplified service for you and your car.
             </p>
-            <p>Having many friends who own high end cars and bikes with busy jobs and families, I know first hand how important maximising the time they have with their favourite vehicle can be. This is where being the <strong>car driver</strong> comes in. I'll drive your vehicle to where you want it to be in time for you to arrive, or in prep for your next excursion.</p>
-            <p>My personal vehicles currently include:</p>
-            <ul>
-	            <li><strong>&middot;</strong> Modified classic mini</li>
-	            <li><strong>&middot;</strong> Seat Leon Cupra R</li>
-	            <li><strong>&middot;</strong> Yamaha XJ6 Diversion motorbike</li>
-	        </ul>
+            <p>
+               Also on offer through carefully selected professional affilates are <a href="{{ route('services') }}">additional services</a> such as <a href="{{ route('services') }}">photography</a> and <a href="{{ route('services') }}">valeting</a>.
+            </p>
             <div class="dividewhite2"></div>
          </div>
       </section>
