@@ -123,6 +123,15 @@
                <div class="dividewhite4"></div>
                <div class="experience">
                   <ul class="">
+                     <li class="date">06/08/2016 - 06/08/2016</li>
+                     <li class="company uppercase">
+                        <a>
+                           Surrey to Isle of Wight
+                        </a>
+                     </li>
+                     <li class="position">2013 Mazda 2</li>
+                  </ul>
+                  <ul class="">
                      <li class="date">25/07/2016 - 26/07/2016</li>
                      <li class="company uppercase">
                         <a>
