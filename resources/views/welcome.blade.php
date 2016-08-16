@@ -41,6 +41,7 @@
                               Meeting your needs when it comes to vehicle transportation is our prime objective. We know that moving your car or motorbike is important to you
                               and we pride ourselves in having the best custom satisfaction.
                            </p>
+                           <p><strong>Reliable trade plate driver</strong></p>
                         </div>
                      </div>
                      <div class="divider-dynamic"></div>
@@ -53,6 +54,7 @@
                            <p class="small">
                               This business exists based on 1st class quality service and delivering clients needs, continuing to work with high profile vehicles with absolute discretion is all the motivation we need to provide the best service to our clients, repeatedly.
                            </p>
+                           <p><strong>Motivated trade plate driver</strong></p>
                         </div>
                      </div>
                      <div class="divider-dynamic"></div>
@@ -65,6 +67,7 @@
                            <p class="small">
                               Timing is everything, deadlines are kept and your vehicle will be where you want it, when you want it. If an issue arose, keeping you informed is of critical importance, you can be assured every measure will be taken to mitigate the issue.
                            </p>
+                           <p><strong>Punctal trade plate driver</strong></p>
                         </div>
                      </div>
                      <div class="divider-dynamic"></div>
@@ -103,7 +106,7 @@
                <div>
                   <div class="fullwidth box">
                      <div class="one"><p class="small uppercase">From:</p></div>
-                     <div class="two"><p class="small">2nd week of August</p></div>
+                     <div class="two"><p class="small">2nd week of September</p></div>
                   </div>
                </div>
                <div class="dividewhite1"></div>
