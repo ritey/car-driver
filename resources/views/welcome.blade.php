@@ -106,7 +106,7 @@
                <div>
                   <div class="fullwidth box">
                      <div class="one"><p class="small uppercase">From:</p></div>
-                     <div class="two"><p class="small">2nd week of September</p></div>
+                     <div class="two"><p class="small">2nd week of <?php echo date('F',strtotime('+1 month')); ?></p></div>
                   </div>
                </div>
                <div class="dividewhite1"></div>
